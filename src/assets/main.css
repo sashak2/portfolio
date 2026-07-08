@@ -82,5 +82,6 @@ h1 { font-size: 36px; font-weight: 600; margin-bottom: 6px; }
 .edu-item { padding: 16px 0; border-bottom: 1px solid #f3f4f6; }
 .edu-item:last-child { border-bottom: none; }
 .edu-period { font-size: 12px; color: #9ca3af; margin-bottom: 3px; }
-.edu-name { font-size: 15px; font-weight: 600; margin-bottom: 2px; }
+.edu-school { font-size: 15px; font-weight: 600; margin-bottom: 2px; }
+.edu-name { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
 .edu-degree { font-size: 14px; color: #6b7280; }

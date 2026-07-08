@@ -70,6 +70,7 @@
       <p class="section-label">Education</p>
       <div v-for="edu in education" :key="edu.name" class="edu-item">
         <p class="edu-period">{{ edu.period }}</p>
+        <p class="edu-school">{{ edu.school }}</p>
         <p class="edu-name">{{ edu.name }}</p>
         <p class="edu-degree">{{ edu.degree }}</p>
       </div>
@@ -137,8 +138,8 @@ const projects = [
 ]
 
 const education = [
-  { period: 'Oct 2025 – Sep 2027 (Expected)', name: 'Information Technology and Co-op (Diploma)', degree: 'Vancouver, BC, Canada' },
-  { period: 'Apr 2014 – Mar 2016', name: 'Information Technology (Diploma)', degree: 'Hyogo, Japan' },
-  { period: 'Apr 2010 – Mar 2014', name: 'Bachelor of Sociology', degree: 'Shiga, Japan' },
+  { period: 'Oct 2025 – Sep 2027 (Expected)', school: 'Canadian College', name: 'Information Technology and Co-op', degree: 'Diploma' },
+  { period: 'Apr 2014 – Mar 2016', school: 'Kobe Institute of Computing-College of Computing', name: 'Information Technology', degree: 'Diploma' },
+  { period: 'Apr 2010 – Mar 2014', school: 'Ryukoku University', name: 'Sociology', degree: 'Bachelor' },
 ]
 </script>
