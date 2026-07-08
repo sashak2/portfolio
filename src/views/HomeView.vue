@@ -39,8 +39,11 @@
     <section class="section" id="experience">
       <p class="section-label">Experience</p>
       <div class="timeline">
-        <div v-for="job in jobs" :key="job.role" class="t-item">
-          <div class="t-dot"></div>
+        <div v-for="(job, index) in jobs" :key="job.role" class="t-item">
+          <div class="t-dot-col">
+            <div class="t-dot"></div>
+            <div v-if="index < jobs.length - 1" class="t-line"></div>
+          </div>
           <div>
             <p class="t-period">{{ job.period }}</p>
             <p class="t-role">{{ job.role }}</p>

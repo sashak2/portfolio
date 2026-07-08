@@ -62,9 +62,14 @@ h1 { font-size: 36px; font-weight: 600; margin-bottom: 6px; }
 
 /* Timeline */
 .timeline { display: flex; flex-direction: column; }
-.t-item { display: flex; gap: 16px; padding: 20px 0; border-bottom: 1px solid #f3f4f6; }
+/* .t-item { display: flex; gap: 16px; padding: 20px 0; border-bottom: 1px solid #f3f4f6; }
 .t-item:last-child { border-bottom: none; }
-.t-dot { width: 8px; height: 8px; border-radius: 50%; background: #3b82f6; margin-top: 5px; flex-shrink: 0; }
+.t-dot { width: 8px; height: 8px; border-radius: 50%; background: #3b82f6; margin-top: 5px; flex-shrink: 0; } */
+.t-item { display: flex; gap: 16px; padding: 20px 0; border-bottom: 1px solid #f3f4f6;}
+.t-item:last-child { border-bottom: none; }
+.t-dot-col { display: flex; flex-direction: column; align-items: center; flex-shrink: 0;}
+.t-dot { width: 8px; height: 8px; border-radius: 50%; background: #3b82f6; flex-shrink: 0;}
+.t-line { width: 1px; flex: 1; background: #e5e7eb; margin-top: 4px;}
 .t-period { font-size: 12px; color: #9ca3af; margin-bottom: 3px; }
 .t-role { font-size: 15px; font-weight: 600; margin-bottom: 2px; }
 .t-company { font-size: 13px; color: #6b7280; margin-bottom: 8px; }
