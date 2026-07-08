@@ -138,8 +138,8 @@ const projects = [
 ]
 
 const education = [
-  { period: 'Oct 2025 – Sep 2027 (Expected)', school: 'Canadian College', name: 'Information Technology and Co-op', degree: 'Diploma' },
-  { period: 'Apr 2014 – Mar 2016', school: 'Kobe Institute of Computing-College of Computing', name: 'Information Technology', degree: 'Diploma' },
-  { period: 'Apr 2010 – Mar 2014', school: 'Ryukoku University', name: 'Sociology', degree: 'Bachelor' },
+  { period: 'Oct 2025 – Sep 2027 (Expected)', school: 'Canadian College, Vancouver, BC, Canada', name: 'Information Technology and Co-op', degree: 'Diploma' },
+  { period: 'Apr 2014 – Mar 2016', school: 'Kobe Institute of Computing-College of Computing, Hyogo, Japan', name: 'Information Technology', degree: 'Diploma' },
+  { period: 'Apr 2010 – Mar 2014', school: 'Ryukoku University, Shiga, Japan', name: 'Sociology', degree: 'Bachelor' },
 ]
 </script>
