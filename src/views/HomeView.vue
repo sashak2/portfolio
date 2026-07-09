@@ -12,12 +12,12 @@
         Japanese engineering discipline to a Canadian work environment.
       </p>
       <div class="tags">
-        <span class="tag accent">AWS</span>
         <span class="tag accent">Python</span>
-        <span class="tag accent">Vue.js</span>
-        <span class="tag">Kubernetes</span>
+        <span class="tag accent">JavaScript</span>
+        <span class="tag">AWS</span>
         <span class="tag">FastAPI</span>
-        <span class="tag">Docker</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Vue.js</span>
       </div>
       <!-- <a class="resume-link" href="/Akihito_Sahashi_Resume.pdf" download>Download resume</a> -->
     </section>
